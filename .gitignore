@@ -1,0 +1,24 @@
+# 二进制文件
+dist
+Releases
+*.exe
+*.csv
+
+# Go
+*.out
+coverage.out
+pretend
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
