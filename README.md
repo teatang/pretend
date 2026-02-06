@@ -25,7 +25,7 @@ go build -o pretend
 sudo mv pretend /usr/local/bin/
 
 # go install安装到工作区的pkg目录下
-go install https://github.com/teatang/pretend
+go install github.com/teatang/pretend@latest
 ```
 
 ## 使用方法
