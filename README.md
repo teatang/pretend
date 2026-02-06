@@ -15,7 +15,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/pretend.git
+git clone https://github.com/teatang/pretend
 cd pretend
 
 # 构建
@@ -23,6 +23,9 @@ go build -o pretend
 
 # 安装到PATH（可选）
 sudo mv pretend /usr/local/bin/
+
+# go install安装到工作区的pkg目录下
+go install https://github.com/teatang/pretend
 ```
 
 ## 使用方法

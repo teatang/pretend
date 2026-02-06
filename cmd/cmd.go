@@ -52,9 +52,9 @@ func PrintHelp() {
   docker  - Docker镜像拉取日志
 
 示例:
-  pretend                    # 打印nginx日志
-  pretend -t pip            # 打印pip安装日志
-  pretend -t npm -l         # 显示npm类型并列出日志类型`)
+  pretend           # 打印nginx日志
+  pretend -t pip    # 打印pip安装日志
+  pretend -l        # 显示可以打印的日志类型`)
 }
 
 // PrintLogTypes 显示支持的日志类型
